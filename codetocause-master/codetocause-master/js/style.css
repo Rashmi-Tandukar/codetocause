@@ -1,0 +1,93 @@
+
+
+/*import fonts from font.css file*/
+@import url(./font.css);
+
+
+/*css variables*/
+@import url(./partials/_variables.css);
+
+/* import global styling*/
+@import url(../partials/_global.css);
+
+
+/*start navigation*/
+.header_area.main-menu.navbar.navbar-brand{
+padding: 0 2rem 0 9rem;
+}
+
+.header_area.main-menu.navbar{
+padding:1rem 20rem;
+    }
+
+    .header_area.main-menu.nav-item.nav-link{
+        font:normal 500 15px/2px var(--Roboto);
+         text-transform: uppercase;
+         padding: 1.7rem;
+        color:var(--title-color);
+    }
+
+    .header_area.main-menu.navbar-nav.active a{
+        background: var(--gradient-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .header_area.main-menu.navbar-nav a:hover{
+        background: var(--gradient-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    /*end navigation*/
+
+/*banner area*/
+.site-main.site-banner{
+    background:url(../img/images\ \(1\).jpg) no-repeat;
+    background-position:0% 50%;
+}
+
+.site-main.site-banner.site-title h1{
+    padding: 0%;
+    font-weight: 500;
+}
+
+.site-main.site-banner.banner-img>img{
+    padding:100rem 0;
+    width: 90rem; 
+
+}
+
+.site-main.site-banner.site-title h5{
+    padding:0% ;
+    font-weight:500 ;
+}
+
+
+
+
+/*end banner area*/
+
+/* start about area */
+.site-main .about-area{
+padding: 8rem 5rem;
+}
+
+.site-main.about-area.about-titile h1>span{
+display:block;
+font: normal bold 40px/60px var(--Roboto);
+}
+
+.site-main.about-area.about-titile.paragraph >p{
+    padding: 0px 20px;
+}
+
+/* end about area */ 
+ 
+
+/*symptoms area*/
+.site-main.about-area.about-titile
+/*end symptoms area*/
+
